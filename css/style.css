@@ -1,3 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 *,
 *::after,
 *::before {
@@ -157,3 +162,24 @@ nav ul li a {
 }
 
 /* item selection end */
+
+
+.card {
+    width: 352px;
+    height: 502px;
+    border-radius: 12px;
+    background: #3B3B3B;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.35);
+}
+
+.card img{
+    width: 328px;
+height: 350px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 0.32);
+
+margin-top: 12px;
+margin-left: 12px;
+margin-right: 12px;
+}
