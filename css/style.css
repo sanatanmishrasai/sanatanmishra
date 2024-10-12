@@ -420,6 +420,150 @@ strong {
     flex-wrap: wrap;
 }
 
-.service{
+.service {
     margin-top: 88px;
 }
+
+.contact {
+    margin-top: 48px;
+
+}
+
+.contacts h2 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+input.input {
+    width: 570px;
+    height: 51px;
+    border: 0;
+    border-radius: 16px;
+    padding-left: 16px;
+    background: #5E5E5E;
+    font-family: inherit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
+input:focus,
+input:active {
+    outline-style: none;
+    box-shadow: none;
+    border: 2px #88E0AB solid;
+}
+
+
+textarea {
+
+    width: 570px;
+    height: 130px;
+    border: 0;
+    border-radius: 16px;
+    padding-left: 16px;
+    padding-top: 16px;
+    background: #5E5E5E;
+    font-family: inherit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
+textarea:focus,
+textarea:active {
+    outline-style: none;
+    box-shadow: none;
+    border: 2px #88E0AB solid;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 12px;
+    background: #88E0AB;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 20px;
+    font-weight: 400;
+    border: #000;
+}
+
+.contacts form {
+    display: flex;
+    width: 576px;
+    padding-bottom: 27px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+    flex-shrink: 0;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    align-self: stretch;
+}
+
+.details h3 {
+    color: rgba(136, 224, 171, 0.72);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.details p {
+    width: 448px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.right {
+    display: flex;
+    width: 448px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.links {
+    display: flex;
+    /* height: 45px; */
+    align-items: center;
+    gap: 12px;
+    flex-direction: row;
+}
+
+.contacts {
+    display: flex;
+    padding: 32px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 32px 96px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+footer {
+    width: 100vw;
+    padding: 32px 0px;
+    background: #525252;
+}
+
+footer hr{
+    margin-bottom: 16px;
+}
+
+footer p{
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+
+
