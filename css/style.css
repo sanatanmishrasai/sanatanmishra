@@ -436,20 +436,6 @@ strong {
 }
 
 
-input.input {
-    width: 570px;
-    height: 51px;
-    border: 0;
-    border-radius: 16px;
-    padding-left: 16px;
-    background: #5E5E5E;
-    font-family: inherit;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    color: white;
-}
-
 input:focus,
 input:active {
     outline-style: none;
@@ -458,21 +444,6 @@ input:active {
 }
 
 
-textarea {
-
-    width: 570px;
-    height: 130px;
-    border: 0;
-    border-radius: 16px;
-    padding-left: 16px;
-    padding-top: 16px;
-    background: #5E5E5E;
-    font-family: inherit;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    color: white;
-}
 
 textarea:focus,
 textarea:active {
@@ -493,7 +464,7 @@ button {
 
 .contacts form {
     display: flex;
-    width: 576px;
+    /* width: 576px; */
     padding-bottom: 27px;
     flex-direction: column;
     align-items: flex-start;
@@ -516,7 +487,7 @@ button {
 }
 
 .details p {
-    width: 448px;
+    /* width: 448px; */
     color: rgba(255, 255, 255, 0.72);
     font-size: 20px;
     font-weight: 400;
@@ -524,7 +495,7 @@ button {
 
 .right {
     display: flex;
-    width: 448px;
+    /* width: 448px; */
     flex-direction: column;
     align-items: flex-start;
     gap: 48px;
@@ -566,3 +537,36 @@ footer a{
 }
 
 
+
+/* Reddy for media query */
+
+
+input.input {
+    width: 570px;
+    height: 51px;
+    border: 0;
+    border-radius: 16px;
+    padding-left: 16px;
+    background: #5E5E5E;
+    font-family: inherit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
+
+textarea {
+    width: 570px;
+    height: 130px;
+    border: 0;
+    border-radius: 16px;
+    padding-left: 16px;
+    padding-top: 16px;
+    background: #5E5E5E;
+    font-family: inherit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
