@@ -1,3 +1,4 @@
-function ShowNav(){
-    document.getElementById("ul2")
+const nav = document.getElementById('ul3');
+function showNav(nav_value) {
+    nav.style.display = nav_value;
 }
