@@ -147,14 +147,6 @@ nav .ul1 li a {
 }
 
 
-
-/* @media all and (max-width: 600px) {
-    .hero {
-        padding-top: 64px;
-    }
-} */
-
-
 @media all and (max-width: 500px) {
     .hero h2 {
         font-size: 32px;
@@ -368,6 +360,24 @@ nav .ul1 li a {
     gap: 14px;
     border-radius: 8px;
     background: #5E5E5E;
+}
+
+@media all and (max-width: 530px) {
+    .resume_card {
+        width: 388px;
+    }
+
+    @media all and (max-width: 460px) {
+        .resume_card {
+            width: 340px;
+        }
+
+        @media all and (max-width: 400px) {
+            .resume_card {
+                width: 300px;
+            }
+        }
+    }
 }
 
 .resume_card .date {
@@ -597,6 +607,12 @@ button {
     align-items: flex-start;
     gap: 26px;
     flex-shrink: 0;
+}
+
+@media all and (max-width: 700px) {
+    .contacts form {
+        width: 88vw;
+    }
 }
 
 .details {
