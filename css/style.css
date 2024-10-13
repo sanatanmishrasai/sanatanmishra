@@ -12,7 +12,7 @@ html {
 
 body {
     background-color: #272727;
-    color: #ffffff;
+    color: #FFF;
 
     font-family: Lato;
     font-feature-settings: 'liga' off, 'clig' off;
@@ -130,7 +130,6 @@ nav ul li a {
     font-weight: 800;
     font-size: 32px;
     text-decoration-line: underline;
-    color: #FFF;
 }
 
 .weak {
@@ -217,7 +216,6 @@ nav ul li a {
 
 .card h3 {
     margin-top: 18px;
-    color: #FFF;
     font-size: 24px;
     font-weight: 600;
 }
@@ -259,7 +257,6 @@ nav ul li a {
     padding: 4px 6px;
     border-radius: 8px;
     background: #7B1FA2;
-    color: #FFF;
     text-align: center;
     font-size: 14px;
     font-weight: 600;
@@ -306,11 +303,8 @@ nav ul li a {
 }
 
 .resume_card .date h4 {
-    color: #FFF;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 .resume_card .pointer {
@@ -342,7 +336,6 @@ nav ul li a {
 
 .resume_card p {
     align-self: stretch;
-    color: white;
     font-size: 20px;
     font-weight: 500;
 }
@@ -401,7 +394,6 @@ strong {
 }
 
 .service_card h2 {
-    color: #FFF;
     text-align: center;
     font-size: 32px;
     font-weight: 600;
@@ -427,7 +419,6 @@ strong {
 
 .service_card ul li {
     margin-top: 8px;
-    color: #FFF;
     font-size: 16px;
     font-weight: 600;
 }
@@ -453,13 +444,12 @@ strong {
 }
 
 .contacts h2 {
-    color: #FFF;
     font-size: 24px;
     font-weight: 400;
 }
 
 
-input.input {
+input {
     width: 98%;
     /* width: 570px; */
     height: 51px;
@@ -467,11 +457,15 @@ input.input {
     border-radius: 16px;
     padding-left: 16px;
     background: #5E5E5E;
-    font-family: inherit;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     color: white;
+}
+
+input::placeholder {
+    color: rgba(228, 228, 228, 0.79);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 
@@ -485,9 +479,14 @@ textarea {
     background: #5E5E5E;
     font-family: inherit;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     color: white;
+}
+
+textarea::placeholder {
+    color: rgba(228, 228, 228, 0.79);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 input:focus,
