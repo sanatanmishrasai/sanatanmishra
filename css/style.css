@@ -146,6 +146,26 @@ nav .ul1 li a {
     font-weight: 600;
 }
 
+
+
+/* @media all and (max-width: 600px) {
+    .hero {
+        padding-top: 64px;
+    }
+} */
+
+
+@media all and (max-width: 500px) {
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+}
+
 /* Header End */
 
 .container {
@@ -202,6 +222,24 @@ nav .ul1 li a {
     border-radius: 8px;
     background: #5E5E5E;
     list-style: none;
+}
+
+@media all and (max-width: 800px) {
+    .selection ul {
+        gap: 32px;
+        padding-left: 32px;
+        padding-right: 32px;
+
+    }
+}
+
+@media all and (max-width: 600px) {
+    .selection ul {
+        gap: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+
+    }
 }
 
 .selection ul li {
