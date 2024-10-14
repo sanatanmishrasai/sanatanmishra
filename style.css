@@ -10,6 +10,7 @@ html {
     padding: 0;
 }
 
+
 body {
     background-color: #272727;
     color: #FFF;
@@ -207,10 +208,10 @@ nav .ul1 li a {
 
 .selection ul {
     display: flex;
-    padding: 10px 64px;
+    padding: 0px 52px;
     justify-content: center;
     align-items: center;
-    gap: 48px;
+    gap: 32px;
     border-radius: 8px;
     background: #5E5E5E;
     list-style: none;
@@ -218,30 +219,33 @@ nav .ul1 li a {
 
 @media all and (max-width: 800px) {
     .selection ul {
-        gap: 32px;
-        padding-left: 32px;
-        padding-right: 32px;
+        gap: 26px;
+        padding-left: 24px;
+        padding-right: 24px;
 
     }
 }
 
 @media all and (max-width: 600px) {
     .selection ul {
-        gap: 16px;
-        padding-left: 16px;
-        padding-right: 16px;
+        gap: 12px;
+        padding-left: 8px;
+        padding-right: 8px;
 
     }
 }
 
 .selection ul li {
+    cursor: pointer;
     color: #000;
     text-align: center;
     font-size: 16px;
     font-weight: 600;
+    padding: 12px 24px;
 }
 
 .selection ul li:nth-child(even) {
+    padding: 0px;
     width: 2px;
     height: 24px;
     gap: 10px;
@@ -249,8 +253,33 @@ nav .ul1 li a {
     background: #000;
 }
 
+@media all and (max-width: 510px) {
+    .selection ul {
+        gap: 0px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    .selection ul li {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
 /* item selection end */
 
+
+.card_s1 {
+    display: block;
+}
+
+.card_s2 {
+    display: none;
+}
+
+.card_s3 {
+    display: none;
+}
 
 .card {
     width: 352px;
@@ -259,7 +288,13 @@ nav .ul1 li a {
     background: #3B3B3B;
     box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.35);
     position: relative;
+
+    transition: display 1000ms;
 }
+
+/* .card:hover {
+    box-shadow: 0px 8px 8px 0px #88E0AB;
+} */
 
 .card img {
     object-position: 50% 50%;
@@ -329,6 +364,26 @@ nav .ul1 li a {
     /* width: fit-content; */
 }
 
+.type2 {
+    padding: 4px 6px;
+    border-radius: 8px;
+    background: #00897B;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    /* width: fit-content; */
+}
+
+.type3 {
+    padding: 4px 6px;
+    border-radius: 8px;
+    background: #C62828;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    /* width: fit-content; */
+}
+
 .card_grid {
     display: inline-flex;
     justify-content: center;
@@ -347,9 +402,11 @@ nav .ul1 li a {
     gap: 8px;
 }
 
-.scrole img{
-    width: 14px;    
+.scrole img {
+    cursor: pointer;
+    width: 14px;
 }
+
 .resume {
     margin-top: 80px;
 }
