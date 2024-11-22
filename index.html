@@ -17,42 +17,45 @@
 </head>
 
 <body>
+    <section id="home">
 
-    <header>
-        <nav>
-            <ul class="ul3" id="ul3">
-                <li onclick="showNav('none')"><img src="images/close google.svg" alt=""></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact Me</a></li>
-            </ul>
 
-            <ul class="ul2" id="ul2">
-                <li onclick="showNav('flex')"><img src="images/menu google.svg" alt=""></li>
-            </ul>
+        <header>
+            <nav>
+                <ul class="ul3" id="ul3">
+                    <li onclick="showNav('none')"><img src="images/close google.svg" alt=""></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <!-- <li><a href="#">Blog</a></li> -->
+                    <li><a href="#contact_me">Contact Me</a></li>
+                </ul>
 
-            <ul class="ul1" >
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact Me</a></li>
-            </ul>
-        </nav>
+                <ul class="ul2" id="ul2">
+                    <li onclick="showNav('flex')"><img src="images/menu google.svg" alt=""></li>
+                </ul>
 
-        
-        <div class="hero container">
-            <h2>Hello, I'm</h2>
-            <h1>Sanatan Mishra</h1>
-            <h4>And This is My Resume</h4>
-        </div>
-    </header>
+                <ul class="ul1">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <!-- <li><a href="#">Blog</a></li> -->
+                    <li><a href="#contact_me">Contact Me</a></li>
+                </ul>
+            </nav>
 
-    <div class="portfolio container">
+
+            <div class="hero container">
+                <h2>Hello, I'm</h2>
+                <h1>Sanatan Mishra</h1>
+                <h4>And This is My Resume</h4>
+            </div>
+        </header>
+    </section>
+
+    <section id="portfolio" class="portfolio container">
         <div class="head">
             <h2>
                 Portfolio <span class="weak"></span>
@@ -136,7 +139,7 @@
 
 
 
-            
+
             <div class="card card_s2 type_2">
                 <img src="images/img_1.jpeg" alt="">
                 <h3 class="text">Coffee Shop</h3>
@@ -201,7 +204,7 @@
 
 
 
-            
+
             <div class="card card_s3 type_1">
                 <img src="images/img_1.jpeg" alt="">
                 <h3 class="text">Coffee Shop</h3>
@@ -270,209 +273,221 @@
             <img class="scrole_element" src="images/select false.svg" id="s3" onclick="selector('s3')" alt="">
         </div>
 
-    </div>
+    </section>
 
-    <div class="resume container">
-        <div class="head">
-            <h2>
-                <span class="weak">My</span> Resume
-            </h2>
+    <section id="resume">
+
+
+        <div class="resume container">
+            <div class="head">
+                <h2>
+                    <span class="weak">My</span> Resume
+                </h2>
+            </div>
+
+            <!-- resume cards start -->
+            <div class="resume_cards">
+                <div class="resume_card">
+                    <div class="date">
+                        <img src="images/Calendar.png" alt="" srcset="">
+                        <h4>2023 <span class="weak">Jan</span></h4>
+                    </div>
+                    <div class="pointer">
+                        <div class="circle"></div>
+                        <h4>Central Board of Secondary Education</h4>
+                    </div>
+                    <div class="from">High School <strong>82%</strong></div>
+                    <div class="school">
+                        <p>Jain Public School Ratlam</p>
+                        <a href="#"><img src="images/link google icon.svg" alt="" srcset=""></a>
+                    </div>
+                </div>
+
+                <div class="resume_card">
+                    <div class="date">
+                        <img src="images/Calendar.png" alt="" srcset="">
+                        <h4>2023 <span class="weak">Jan</span></h4>
+                    </div>
+                    <div class="pointer">
+                        <div class="circle"></div>
+                        <h4>Central Board of Secondary Education</h4>
+                    </div>
+                    <div class="from">High School <strong>82%</strong></div>
+                    <div class="school">
+                        <p>Jain Public School Ratlam</p>
+                        <a href="#"><img src="images/link google icon.svg" alt="" srcset=""></a>
+                    </div>
+                </div>
+
+                <div class="resume_card">
+                    <div class="date">
+                        <img src="images/Calendar.png" alt="" srcset="">
+                        <h4>2023 <span class="weak">Jan</span></h4>
+                    </div>
+                    <div class="pointer">
+                        <div class="circle"></div>
+                        <h4>Central Board of Secondary Education</h4>
+                    </div>
+                    <div class="from">High School <strong>82%</strong></div>
+                    <div class="school">
+                        <p>Jain Public School Ratlam</p>
+                        <a href="#"><img src="images/link google icon.svg" alt="" srcset=""></a>
+                    </div>
+                </div>
+
+                <div class="resume_card">
+                    <div class="date">
+                        <img src="images/Calendar.png" alt="" srcset="">
+                        <h4>2023 <span class="weak">Jan</span></h4>
+                    </div>
+                    <div class="pointer">
+                        <div class="circle"></div>
+                        <h4>Central Board of Secondary Education</h4>
+                    </div>
+                    <div class="from">High School <strong>82%</strong></div>
+                    <div class="school">
+                        <p>Jain Public School Ratlam</p>
+                        <a href="#"><img src="images/link google icon.svg" alt="" srcset=""></a>
+                    </div>
+                </div>
+
+                <div class="resume_card">
+                    <div class="date">
+                        <img src="images/Calendar.png" alt="" srcset="">
+                        <h4>2023 <span class="weak">Jan</span></h4>
+                    </div>
+                    <div class="pointer">
+                        <div class="circle"></div>
+                        <h4>Central Board of Secondary Education</h4>
+                    </div>
+                    <div class="from">High School <strong>82%</strong></div>
+                    <div class="school">
+                        <p>Jain Public School Ratlam</p>
+                        <a href="#"><img src="images/link google icon.svg" alt="" srcset=""></a>
+                    </div>
+                </div>
+
+                <div class="resume_card">
+                    <div class="date">
+                        <img src="images/Calendar.png" alt="" srcset="">
+                        <h4>2023 <span class="weak">Jan</span></h4>
+                    </div>
+                    <div class="pointer">
+                        <div class="circle"></div>
+                        <h4>Central Board of Secondary Education</h4>
+                    </div>
+                    <div class="from">High School <strong>82%</strong></div>
+                    <div class="school">
+                        <p>Jain Public School Ratlam</p>
+                        <a href="#"><img src="images/link google icon.svg" alt="" srcset=""></a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- resume cards end -->
         </div>
+    </section>
 
-        <!-- resume cards start -->
-        <div class="resume_cards">
-            <div class="resume_card">
-                <div class="date">
-                    <img src="images/Calendar.png" alt="" srcset="">
-                    <h4>2023 <span class="weak">Jan</span></h4>
-                </div>
-                <div class="pointer">
-                    <div class="circle"></div>
-                    <h4>Central Board of Secondary Education</h4>
-                </div>
-                <div class="from">High School <strong>82%</strong></div>
-                <div class="school">
-                    <p>Jain Public School Ratlam</p>
-                    <a href="#"><img src="images/link google icon.svg" alt="" srcset=""></a>
-                </div>
+    <section id="service">
+
+
+        <div class="service container">
+            <div class="head">
+                <h2>
+                    <span class="weak">My</span> Freelancing Services
+                </h2>
             </div>
 
-            <div class="resume_card">
-                <div class="date">
-                    <img src="images/Calendar.png" alt="" srcset="">
-                    <h4>2023 <span class="weak">Jan</span></h4>
+            <!-- service cars starts -->
+            <div class="service_cards">
+                <div class="service_card">
+                    <img src="images/service_1.png" alt="">
+                    <div><a href="#">Designed by Freepik</a></div>
+                    <h2>Website Solutions</h2>
+                    <p>Complete website help, from design to going online smoothly.</p>
+                    <ul>
+                        <li>Design</li>
+                        <li>Development</li>
+                        <li>Deployment / Hosting</li>
+                    </ul>
                 </div>
-                <div class="pointer">
-                    <div class="circle"></div>
-                    <h4>Central Board of Secondary Education</h4>
-                </div>
-                <div class="from">High School <strong>82%</strong></div>
-                <div class="school">
-                    <p>Jain Public School Ratlam</p>
-                    <a href="#"><img src="images/link google icon.svg" alt="" srcset=""></a>
-                </div>
-            </div>
 
-            <div class="resume_card">
-                <div class="date">
-                    <img src="images/Calendar.png" alt="" srcset="">
-                    <h4>2023 <span class="weak">Jan</span></h4>
+                <div class="service_card">
+                    <img src="images/service_1.png" alt="">
+                    <div><a href="#">Designed by Freepik</a></div>
+                    <h2>Website Solutions</h2>
+                    <p>Complete website help, from design to going online smoothly.</p>
+                    <ul>
+                        <li>Design</li>
+                        <li>Development</li>
+                        <li>Deployment / Hosting</li>
+                    </ul>
                 </div>
-                <div class="pointer">
-                    <div class="circle"></div>
-                    <h4>Central Board of Secondary Education</h4>
-                </div>
-                <div class="from">High School <strong>82%</strong></div>
-                <div class="school">
-                    <p>Jain Public School Ratlam</p>
-                    <a href="#"><img src="images/link google icon.svg" alt="" srcset=""></a>
-                </div>
-            </div>
 
-            <div class="resume_card">
-                <div class="date">
-                    <img src="images/Calendar.png" alt="" srcset="">
-                    <h4>2023 <span class="weak">Jan</span></h4>
+                <div class="service_card">
+                    <img src="images/service_1.png" alt="">
+                    <div><a href="#">Designed by Freepik</a></div>
+                    <h2>Website Solutions</h2>
+                    <p>Complete website help, from design to going online smoothly.</p>
+                    <ul>
+                        <li>Design</li>
+                        <li>Development</li>
+                        <li>Deployment / Hosting</li>
+                    </ul>
                 </div>
-                <div class="pointer">
-                    <div class="circle"></div>
-                    <h4>Central Board of Secondary Education</h4>
-                </div>
-                <div class="from">High School <strong>82%</strong></div>
-                <div class="school">
-                    <p>Jain Public School Ratlam</p>
-                    <a href="#"><img src="images/link google icon.svg" alt="" srcset=""></a>
-                </div>
-            </div>
 
-            <div class="resume_card">
-                <div class="date">
-                    <img src="images/Calendar.png" alt="" srcset="">
-                    <h4>2023 <span class="weak">Jan</span></h4>
-                </div>
-                <div class="pointer">
-                    <div class="circle"></div>
-                    <h4>Central Board of Secondary Education</h4>
-                </div>
-                <div class="from">High School <strong>82%</strong></div>
-                <div class="school">
-                    <p>Jain Public School Ratlam</p>
-                    <a href="#"><img src="images/link google icon.svg" alt="" srcset=""></a>
-                </div>
             </div>
-
-            <div class="resume_card">
-                <div class="date">
-                    <img src="images/Calendar.png" alt="" srcset="">
-                    <h4>2023 <span class="weak">Jan</span></h4>
-                </div>
-                <div class="pointer">
-                    <div class="circle"></div>
-                    <h4>Central Board of Secondary Education</h4>
-                </div>
-                <div class="from">High School <strong>82%</strong></div>
-                <div class="school">
-                    <p>Jain Public School Ratlam</p>
-                    <a href="#"><img src="images/link google icon.svg" alt="" srcset=""></a>
-                </div>
-            </div>
-
+            <!-- service cars end -->
         </div>
-        <!-- resume cards end -->
-    </div>
-
-    <div class="service container">
-        <div class="head">
-            <h2>
-                <span class="weak">My</span> Freelancing Services
-            </h2>
-        </div>
-
-        <!-- service cars starts -->
-        <div class="service_cards">
-            <div class="service_card">
-                <img src="images/service_1.png" alt="">
-                <div><a href="#">Designed by Freepik</a></div>
-                <h2>Website Solutions</h2>
-                <p>Complete website help, from design to going online smoothly.</p>
-                <ul>
-                    <li>Design</li>
-                    <li>Development</li>
-                    <li>Deployment / Hosting</li>
-                </ul>
-            </div>
-
-            <div class="service_card">
-                <img src="images/service_1.png" alt="">
-                <div><a href="#">Designed by Freepik</a></div>
-                <h2>Website Solutions</h2>
-                <p>Complete website help, from design to going online smoothly.</p>
-                <ul>
-                    <li>Design</li>
-                    <li>Development</li>
-                    <li>Deployment / Hosting</li>
-                </ul>
-            </div>
-
-            <div class="service_card">
-                <img src="images/service_1.png" alt="">
-                <div><a href="#">Designed by Freepik</a></div>
-                <h2>Website Solutions</h2>
-                <p>Complete website help, from design to going online smoothly.</p>
-                <ul>
-                    <li>Design</li>
-                    <li>Development</li>
-                    <li>Deployment / Hosting</li>
-                </ul>
-            </div>
-
-        </div>
-        <!-- service cars end -->
-    </div>
+    </section>
 
     <!-- get in touch -->
-    <div class="contact container">
-        <div class="head">
-            <h2>
-                <span class="weak"></span>Get In Touch
-            </h2>
-        </div>
+    <section id="contact_me">
 
-        <div class="contacts">
-            <form action="#" mathod="GET" class="left">
-                <h2>Get in Touch</h2>
-                <input type="text" placeholder="Your Name" >
-                <input type="email" placeholder="Your Email">
-                <input type="text" placeholder="Your Phone">
-                <textarea name="" placeholder="Write a Message" id=""></textarea>
-                <button>Submit</button>
-            </form>
-            <div class="right">
-                <h2>My Contact Details</h2>
-                <div class="details">
-                    <h3>Email</h3>
-                    <p>sanatanmishrasai@gmail.com</p>
-                </div>
-                <div class="details">
-                    <h3>Phone</h3>
-                    <p>+91 74158 *****</p>
-                </div>
-                <div class="details">
-                    <h3>Address</h3>
-                    <p>Parul University (+91 74158 *****)
-                        <br>
-                        Vadodara, Gujrat
-                    </p>
-                </div>
-                <div class="links">
-                    <a href="#"><img src="images/whatsapp icon.png" alt="" srcset=""></a>
-                    <a href="#"><img src="images/insta icon.png" alt="" srcset=""></a>
-                    <a href="#"><img src="images/github icon.png" alt="" srcset=""></a>
-                    <a href="#"><img src="images/linkedin icon.png" alt="" srcset=""></a>
+
+        <div class="contact container">
+            <div class="head">
+                <h2>
+                    <span class="weak"></span>Get In Touch
+                </h2>
+            </div>
+
+            <div class="contacts">
+                <form action="#" mathod="GET" class="left">
+                    <h2>Get in Touch</h2>
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <input type="text" placeholder="Your Phone">
+                    <textarea name="" placeholder="Write a Message" id=""></textarea>
+                    <button>Submit</button>
+                </form>
+                <div class="right">
+                    <h2>My Contact Details</h2>
+                    <div class="details">
+                        <h3>Email</h3>
+                        <p>sanatanmishrasai@gmail.com</p>
+                    </div>
+                    <div class="details">
+                        <h3>Phone</h3>
+                        <p>+91 74158 *****</p>
+                    </div>
+                    <div class="details">
+                        <h3>Address</h3>
+                        <p>Parul University (+91 74158 *****)
+                            <br>
+                            Vadodara, Gujrat
+                        </p>
+                    </div>
+                    <div class="links">
+                        <a href="#"><img src="images/whatsapp icon.png" alt="" srcset=""></a>
+                        <a href="#"><img src="images/insta icon.png" alt="" srcset=""></a>
+                        <a href="#"><img src="images/github icon.png" alt="" srcset=""></a>
+                        <a href="#"><img src="images/linkedin icon.png" alt="" srcset=""></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <footer>
         <hr>

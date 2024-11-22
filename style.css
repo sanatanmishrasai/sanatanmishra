@@ -162,6 +162,10 @@ nav .ul1 li a {
 /* Header End */
 
 .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -189,6 +193,7 @@ nav .ul1 li a {
 
 .portfolio {
     padding-top: 82px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -408,7 +413,9 @@ nav .ul1 li a {
 }
 
 .resume {
-    margin-top: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
 }
 
 .resume_card {
@@ -579,7 +586,7 @@ strong {
 }
 
 .service {
-    margin-top: 88px;
+    padding-top: 40px;
 }
 
 .contact {
