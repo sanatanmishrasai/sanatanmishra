@@ -166,7 +166,7 @@ nav .ul1 li a {
     padding-bottom: 40px;
 
 
-    max-width: 1440px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -249,6 +249,11 @@ nav .ul1 li a {
     padding: 12px 24px;
 }
 
+.selection ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
 .selection ul li:nth-child(even) {
     padding: 0px;
     width: 2px;
@@ -287,8 +292,8 @@ nav .ul1 li a {
 }
 
 .card {
-    width: 352px;
-    height: 502px;
+    /* width: 352px; */
+    height: 450px;
     border-radius: 12px;
     background: #3B3B3B;
     box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.35);
@@ -304,8 +309,8 @@ nav .ul1 li a {
 .card img {
     object-position: 50% 50%;
     object-fit: cover;
-    width: 328px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     flex-shrink: 0;
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.32);
@@ -355,13 +360,15 @@ nav .ul1 li a {
     color: #88E0AB;
     max-width: 220px;
     overflow: hidden;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
+
+    
 }
 
 .type1 {
     padding: 4px 6px;
-    border-radius: 8px;
+    border-radius: 6px;
     background: #7B1FA2;
     text-align: center;
     font-size: 14px;
@@ -371,7 +378,7 @@ nav .ul1 li a {
 
 .type2 {
     padding: 4px 6px;
-    border-radius: 8px;
+    border-radius: 6px;
     background: #00897B;
     text-align: center;
     font-size: 14px;
@@ -381,7 +388,7 @@ nav .ul1 li a {
 
 .type3 {
     padding: 4px 6px;
-    border-radius: 8px;
+    border-radius: 6px;
     background: #C62828;
     text-align: center;
     font-size: 14px;
@@ -519,15 +526,15 @@ strong {
 
 .service_card {
 
-    width: 352px;
-    height: 560px;
+    width: 300px;
+    height: 500px;
     background: #3B3B3B;
     box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.28);
 }
 
 .service_card img {
-    width: 352px;
-    height: 270px;
+    width: inherit;
+    height: 230px;
     flex-shrink: 0;
     border-radius: 8px;
 }
@@ -717,6 +724,11 @@ button {
     align-items: center;
     gap: 12px;
     flex-direction: row;
+}
+
+#web_craft_studio{
+    height: 84px;
+    border-radius: 8px;
 }
 
 .contacts {
