@@ -2,7 +2,9 @@ html {
     scroll-behavior: smooth;
 }
 
-
+:root{
+    
+}
 *,
 *::after,
 *::before {
@@ -14,14 +16,13 @@ html {
 body {
     background-color: #272727;
     color: #FFF;
-
     font-family: Lato;
     font-feature-settings: 'liga' off, 'clig' off;
     font-style: normal;
     line-height: normal;
 }
 
-header {
+.index_header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -30,7 +31,6 @@ header {
     background: url("images/heroimage.jpeg") lightgray 50% / cover no-repeat;
     opacity: 88%;
 }
-
 
 .ul2 {
     display: none;
@@ -95,6 +95,9 @@ nav .ul1 li a {
     text-decoration: none;
 }
 
+#webcraft_nav a{
+    padding-left: 2px;
+}
 @media all and (max-width: 800px) {
     nav .ul1 {
         display: none;
@@ -185,7 +188,8 @@ nav .ul1 li a {
     text-decoration-line: underline;
 }
 
-.weak {
+small {
+    font-size: inherit;
     color: rgba(255, 255, 255, 0.72);
 }
 
@@ -198,7 +202,7 @@ nav .ul1 li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 48px;
+    gap: 24px;
 
 }
 
@@ -302,9 +306,12 @@ nav .ul1 li a {
     transition: display 1000ms;
 }
 
-/* .card:hover {
-    box-shadow: 0px 8px 8px 0px #88E0AB;
-} */
+@keyframes sque {
+    0%{transform: scale(1, 1)}
+    50%{transform: scale(0.9, 1.1)}
+    100%{transform: scale(1, 1)}
+    
+}
 
 .card img {
     object-position: 50% 50%;
@@ -571,7 +578,7 @@ strong {
     margin-top: 40px;
     margin-right: 54px;
     margin-left: 54px;
-    list-style-image: url("../images/tick.png");
+    list-style-image: url("../images/check-circle-fill.svg");
 
 }
 
@@ -663,7 +670,7 @@ textarea:active {
     border: 2px #88E0AB solid;
 }
 
-button {
+button, .button {
     padding: 8px 16px;
     border-radius: 12px;
     background: #88E0AB;
@@ -671,6 +678,8 @@ button {
     font-size: 20px;
     font-weight: 400;
     border: #000;
+
+    text-decoration: none;
 }
 
 .contacts form {
@@ -725,6 +734,13 @@ button {
     gap: 12px;
     flex-direction: row;
 }
+
+.links{
+    /* height: 32px; */
+    color: white;
+    fill: #ffffff;
+}
+
 
 #web_craft_studio{
     height: 84px;

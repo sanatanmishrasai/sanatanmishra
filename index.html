@@ -8,6 +8,11 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <!-- fav icons -->
+    <link rel="icon" href="images/airplane.svg" sizes="any" type="image/svg+xml">
+
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,15 +23,15 @@
 
 <body>
     <section id="home">
-
-
-        <header>
+        <header class="index_header">
             <nav>
                 <ul class="ul3" id="ul3">
                     <li onclick="showNav('none')"><img src="images/close google.svg" alt=""></li>
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="https://www.instagram.com/web_craft_studio/">web craft studio</a></li>
+                    <li id="webcraft_nav">
+                        <a href="https://www.instagram.com/web_craft_studio/">web craft studio</a>
+                    </li>
                     <!-- <li><a href="#resume">Resume</a></li> -->
                     <li><a href="#service">Service</a></li>
                     <!-- <li><a href="#">Blog</a></li> -->
@@ -38,16 +43,23 @@
                 </ul>
 
                 <ul class="ul1">
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="https://www.instagram.com/web_craft_studio/">web craft studio</a></li>
+
+                    <li id="webcraft_nav">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg> -->
+                        <a href="https://www.instagram.com/web_craft_studio/">web craft studio</a>
+                    </li>
                     <!-- <li><a href="#resume">Resume</a></li> -->
                     <li><a href="#service">Service</a></li>
                     <!-- <li><a href="#">Blog</a></li> -->
                     <li><a href="#contact_me">Contact Me</a></li>
                 </ul>
             </nav>
-
 
             <div class="hero container">
                 <h2>Hello, I'm</h2>
@@ -60,11 +72,11 @@
     <section id="portfolio" class="portfolio container">
         <div class="head">
             <h2>
-                Portfolio <span class="weak"></span>
+                <small>My</small> Portfolio
             </h2>
         </div>
 
-<!-- for on page type selection
+        <!-- for on page type selection
         <div class="selection">
             <ul>
                 <li onclick="select('all')">All</li>
@@ -89,7 +101,7 @@
             </div>
 
         -->
-<!-- For switching to another page
+        <!-- For switching to another page
         <div class="selection">
             <ul>
                 <li><a href="#">All</a></li>
@@ -168,29 +180,29 @@
 
 
         </div>
+        <a href="#" class="button">See More</a>
         <!-- grid end -->
-        <!-- <div class="scrole">
+        <!--<div class="scrole">
             <img class="scrole_element" src="images/select true.svg" id="s1" onclick="selector('s1')" alt="">
             <img class="scrole_element" src="images/select false.svg" id="s2" onclick="selector('s2')" alt="">
             <img class="scrole_element" src="images/select false.svg" id="s3" onclick="selector('s3')" alt="">
         </div> -->
 
     </section>
-<!-- 
+    <!--
     <section id="resume">
-
         <div class="resume container">
             <div class="head">
                 <h2>
-                    <span class="weak">My</span> Resume
+                    <small>My</small> Resume
                 </h2>
             </div>
 
             <div class="resume_cards">
                 <div class="resume_card">
                     <div class="date">
-                        <img src="images/Calendar.png" alt="" srcset="">
-                        <h4>2023 <span class="weak">Jan</span></h4>
+                        <img src="images/calendar.svg" alt="" srcset="">
+                        <h4>2023 <small>Jan</small></h4>
                     </div>
                     <div class="pointer">
                         <div class="circle"></div>
@@ -205,8 +217,8 @@
 
                 <div class="resume_card">
                     <div class="date">
-                        <img src="images/Calendar.png" alt="" srcset="">
-                        <h4>2023 <span class="weak">Jan</span></h4>
+                        <img src="images/calendar.svg" alt="" srcset="">
+                        <h4>2023 <small>Jan</small></h4>
                     </div>
                     <div class="pointer">
                         <div class="circle"></div>
@@ -221,8 +233,8 @@
 
                 <div class="resume_card">
                     <div class="date">
-                        <img src="images/Calendar.png" alt="" srcset="">
-                        <h4>2023 <span class="weak">Jan</span></h4>
+                        <img src="images/calendar.svg" alt="" srcset="">
+                        <h4>2023 <small>Jan</small></h4>
                     </div>
                     <div class="pointer">
                         <div class="circle"></div>
@@ -237,8 +249,8 @@
 
                 <div class="resume_card">
                     <div class="date">
-                        <img src="images/Calendar.png" alt="" srcset="">
-                        <h4>2023 <span class="weak">Jan</span></h4>
+                        <img src="images/calendar.svg" alt="" srcset="">
+                        <h4>2023 <small>Jan</small>></h4>
                     </div>
                     <div class="pointer">
                         <div class="circle"></div>
@@ -253,15 +265,14 @@
 
             </div>
         </div>
-    </section> -->
+    </section>-->
 
     <section id="service">
-
 
         <div class="service container">
             <div class="head">
                 <h2>
-                    <span class="weak">My</span> Freelancing Services
+                    <small>My</small> Freelancing Services
                 </h2>
             </div>
 
@@ -315,7 +326,7 @@
         <div class="contact container">
             <div class="head">
                 <h2>
-                    <span class="weak"></span>Get In Touch
+                    <small>Get</small> In Touch
                 </h2>
             </div>
 
@@ -346,11 +357,14 @@
                         </p>
                     </div>
                     <div class="links">
-                        <a href="https://wa.link/gna0eo"><img src="images/whatsapp icon.png" alt="" srcset=""></a>
-                        <a href="https://www.instagram.com/sa_m.exe/"><img src="images/insta icon.png" alt="" srcset=""></a>
-                        <!-- <a href="#"><img src="images/github icon.png" alt="" srcset=""></a> -->
-                        <a href="https://www.linkedin.com/in/sanatan-mishra-334a84282/"><img src="images/linkedin icon.png" alt="" srcset=""></a>
-                        <a href="https://www.instagram.com/web_craft_studio/"><img src="images/horizontal logo.png" alt="web_craft_studio" id="web_craft_studio"></a>
+                        <a href="https://wa.link/gna0eo"><img src="images/whatsapp.svg"></img></a>
+                        <a href="https://www.instagram.com/sa_m.exe/"><img src="images/instagram.svg"></a>
+                        <a href="#"><img src="images/github.svg" alt="" srcset=""></a>
+                        <!-- <a href="#"><img src="images/facebook.svg"></a> -->
+                        <a href="https://www.linkedin.com/in/sanatan-mishra-334a84282/"><img
+                                src="images/linkedin.svg"></a>
+                        <a href="https://www.instagram.com/web_craft_studio/"><img src="images/horizontal logo.png"
+                                alt="web_craft_studio" id="web_craft_studio"></a>
                     </div>
                 </div>
             </div>
