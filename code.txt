@@ -1,0 +1,78 @@
+resume section
+
+<section id="resume">
+        <div class="resume container">
+            <div class="head">
+                <h2>
+                    <small>My</small> Resume
+                </h2>
+            </div>
+
+            <div class="resume_cards">
+                <div class="resume_card">
+                    <div class="date">
+                        <img src="images/calendar.svg" alt="" srcset="">
+                        <h4>2023 <small>Jan</small></h4>
+                    </div>
+                    <div class="pointer">
+                        <div class="circle"></div>
+                        <h4>Central Board of Secondary Education</h4>
+                    </div>
+                    <div class="from">High School <strong>82%</strong></div>
+                    <div class="school">
+                        <p>Jain Public School Ratlam</p>
+                        <a href="#"><img src="images/link google icon.svg" alt="" srcset=""></a>
+                    </div>
+                </div>
+
+                <div class="resume_card">
+                    <div class="date">
+                        <img src="images/calendar.svg" alt="" srcset="">
+                        <h4>2023 <small>Jan</small></h4>
+                    </div>
+                    <div class="pointer">
+                        <div class="circle"></div>
+                        <h4>Central Board of Secondary Education</h4>
+                    </div>
+                    <div class="from">High School <strong>82%</strong></div>
+                    <div class="school">
+                        <p>Jain Public School Ratlam</p>
+                        <a href="#"><img src="images/link google icon.svg" alt="" srcset=""></a>
+                    </div>
+                </div>
+
+                <div class="resume_card">
+                    <div class="date">
+                        <img src="images/calendar.svg" alt="" srcset="">
+                        <h4>2023 <small>Jan</small></h4>
+                    </div>
+                    <div class="pointer">
+                        <div class="circle"></div>
+                        <h4>Central Board of Secondary Education</h4>
+                    </div>
+                    <div class="from">High School <strong>82%</strong></div>
+                    <div class="school">
+                        <p>Jain Public School Ratlam</p>
+                        <a href="#"><img src="images/link google icon.svg" alt="" srcset=""></a>
+                    </div>
+                </div>
+
+                <div class="resume_card">
+                    <div class="date">
+                        <img src="images/calendar.svg" alt="" srcset="">
+                        <h4>2023 <small>Jan</small>></h4>
+                    </div>
+                    <div class="pointer">
+                        <div class="circle"></div>
+                        <h4>Central Board of Secondary Education</h4>
+                    </div>
+                    <div class="from">High School <strong>82%</strong></div>
+                    <div class="school">
+                        <p>Jain Public School Ratlam</p>
+                        <a href="#"><img src="images/link google icon.svg" alt="" srcset=""></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
